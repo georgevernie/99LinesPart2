@@ -1,0 +1,21 @@
+/*Adds a basic background color to body besides pure white to make it a little easier on the eyes.*/
+body{
+    background-color: rgb(243, 243, 243);
+}
+/* Styles all elements within friend.*/
+.friend{
+    margin-top: 8px;
+    background-color: rgb(182, 251, 164);
+    color: rgb(44, 44, 44);
+}
+/*Selects and styles the friends names*/
+.friend > h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+/*Selects and styles the song lines*/
+.friend > p{
+    font-size:large;
+    font-family:cursive, serif;
+    text-align: center;
+}
