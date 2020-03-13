@@ -4,16 +4,16 @@ body{
 }
 /* Styles all elements within friend.*/
 .friend{
-    margin-top: 8px;
+    margin-top: 2rem;
     background-color: rgb(182, 251, 164);
     color: rgb(44, 44, 44);
 }
-/*Selects and styles the friends names*/
+/*Selects and styles h3s with friend*/
 .friend > h3{
     text-transform: uppercase;
     text-align: center;
 }
-/*Selects and styles the song lines*/
+/*Selects and styles the paragraphs within friend*/
 .friend > p{
     font-size:large;
     font-family:cursive, serif;
